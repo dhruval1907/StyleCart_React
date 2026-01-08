@@ -1,9 +1,10 @@
 import React from 'react'
+import Side from './components/Side'
 
 const App = () => {
   return (
-    <div>
-        
+    <div className='p-10'>
+        <Side/>
     </div>
   )
 }
