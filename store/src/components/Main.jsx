@@ -3,7 +3,7 @@ import Side from './Side'
 
 const Main = () => {
   return (
-    <div className='h-20  w-full p-10'>
+    <div className='h-30  w-full p-10'>
         <Side />
     </div>
   )
