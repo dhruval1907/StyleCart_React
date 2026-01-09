@@ -1,10 +1,11 @@
 import React from 'react'
 import Side from './components/Side'
+import Main from './components/Main'
 
 const App = () => {
   return (
-    <div className='p-10'>
-        <Side/>
+    <div className=''>
+        <Main/>
     </div>
   )
 }
