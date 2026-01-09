@@ -21,7 +21,6 @@ const App = () => {
           <Route path='/men' element={<Men/> }/>
           <Route path='/women' element={<Women/> }/>
         </Routes>
-        <Card/>
     </div>
   )
 }
