@@ -1,23 +1,26 @@
 import React from "react";
 
-const Card = () => {
+const Card = (props) => {
+    
   return (
-    <div className="rounded-2xl flex justify-evenly flex-col gap-5 items-center   h-[30%] w-[20%] bg-blue-100 ">
-      <div className="w-full h-[50%] flex items-center justify-center">
+    <div className="rounded-2xl flex flex-col gap-5 items-center h-[420px] w-[320px] bg-blue-100 p-5">
+      
+      <div className="w-full h-[250px] flex items-center justify-center">
         <img
-          className="h-[100%] w-[50%]"
-          src="https://images.unsplash.com/photo-1762656669479-496d6291ef64?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
+          className="h-full object-cover"
+          src={props.image}
         />
       </div>
-      <p className="w-[80%] font-normal text-xl">
-        "From our Legends Collection, the Naga was inspired by the mythical
-        water dragon that "
+
+      <p className="text-lg text-center font-medium line-clamp-2">
+        {props.name}  
       </p>
-      <div className="flex h-20 items-center  w-[80%] justify-between text-xl font-semibold">
-        <h5>jewelery</h5>
-        <h5>$ 695</h5>
+
+      <div className="flex w-full justify-around text-lg font-semibold">
+        <h5>Jewellary</h5>
+        <h5> $ {props.price}</h5>
       </div>
+
     </div>
   );
 };
