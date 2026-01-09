@@ -8,6 +8,7 @@ import Store from './components/Store'
 import Men from './components/Men'
 import Women from './components/Women'
 import Card from './components/Card'
+import Productsdetails from './components/Productsdetails'
 const App = () => {
   return (
     <div className=''>
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home/> }/>
           <Route path='/product' element={<Products/> }/>
+          <Route path='/product/:id' element={<Productsdetails/> }/>
           <Route path='/store' element={<Store/> }/>
           <Route path='/men' element={<Men/> }/>
           <Route path='/women' element={<Women/> }/>
