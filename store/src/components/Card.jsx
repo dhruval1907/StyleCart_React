@@ -14,7 +14,7 @@ const Card = () => {
         "From our Legends Collection, the Naga was inspired by the mythical
         water dragon that "
       </p>
-      <div className="flex w-[80%] justify-between text-xl font-semibold">
+      <div className="flex h-20 items-center  w-[80%] justify-between text-xl font-semibold">
         <h5>jewelery</h5>
         <h5>$ 695</h5>
       </div>
