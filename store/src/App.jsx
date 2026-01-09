@@ -7,6 +7,7 @@ import Products from './components/Products'
 import Store from './components/Store'
 import Men from './components/Men'
 import Women from './components/Women'
+import Card from './components/Card'
 const App = () => {
   return (
     <div className=''>
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/men' element={<Men/> }/>
           <Route path='/women' element={<Women/> }/>
         </Routes>
+        <Card/>
     </div>
   )
 }
