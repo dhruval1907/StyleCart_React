@@ -1,9 +1,9 @@
 import React from 'react'
-import Nav from './components/Nav'
+import "../src/styles/main.scss"
 
 const App = () => {
   return (
-    <div>
+    <div className="main">
       
     </div>
   )
