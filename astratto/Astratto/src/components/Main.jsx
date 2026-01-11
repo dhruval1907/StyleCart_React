@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 const Main = () => {
   return (
-    <div>
+    <div >
       <Nav/>
       <Mainpart1/>
     </div>
