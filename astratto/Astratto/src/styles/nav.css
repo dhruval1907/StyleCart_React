@@ -45,8 +45,13 @@
   justify-content: center;
   gap: 30px;
 }
+.nav-part2 h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 .nav-part2 a {
   text-decoration: none;
+  letter-spacing: 1px;
   padding: 10px;
   border-radius: 50px;
   border: 1px solid black;
