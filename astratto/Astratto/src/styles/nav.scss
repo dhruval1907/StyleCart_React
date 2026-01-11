@@ -13,13 +13,54 @@
 .nav2 {
     border-bottom: 2px solid black;
     width: 100%;
+    padding: 20px 0px;
     min-height: 20px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
     justify-content: center;
-}
+    .nav-part1 h1 {
+        font-size: 30px;
+    }
+    .nav-part1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
 
-.nav2 h1 {
-    font-size: 20px;
-    
+        .icon-main{
+            background-color: rgba(0, 0, 255, 0.515);
+            height: 50px;
+            width: 50px;
+            font-size: 20px !important;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}    
+
+.nav-part2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    a{
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 50px;
+        border: 1px solid black;
+        font-weight: 300;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .icon{
+            font-size: 20px;
+        }
+    }
 }
