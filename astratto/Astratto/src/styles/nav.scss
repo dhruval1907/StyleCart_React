@@ -22,6 +22,21 @@
     .nav-part1 h1 {
         font-size: 30px;
     }
+    .nav-part{
+        display: flex;        
+        gap: 20px;
+
+        a{
+            text-decoration: none;
+              font-size: 18px;
+            color: black;
+            font-weight: 900;
+            text-transform: capitalize;
+        }
+        a:hover{
+            border-bottom: 1px solid black;
+        }
+    }
     .nav-part1{
         display: flex;
         align-items: center;
@@ -29,12 +44,13 @@
         gap: 10px;
 
         .icon-main{
-            background-color: rgba(0, 0, 255, 0.515);
+            background-color: rgba(0, 0, 255, 0.828);
             height: 50px;
             width: 50px;
-            font-size: 20px !important;
+            font-size: 35px !important;
             border-radius: 50%;
             display: flex;
+            color: white;
             align-items: center;
             justify-content: center;
         }
@@ -76,6 +92,29 @@
         display: flex;
         flex-direction: row !important;
         padding: 10px;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        border-bottom: 0.5px solid black;
+    }
+
+    .nav-part{
+        width: 30%;
+        gap: 20px;
+        padding: 0px 50px;
+        a{
+            font-size: 18px;
+            color: black;
+            font-weight: 900;
+            text-transform: capitalize;
+        }
+    }
+    .nav-part1{
+        width: 33%;
+        h1{
+            font-size: 25px !important;
+        }
+    }
+    .nav-part2{
+        width: 28%;
+        gap: 40px;
     }
 }
