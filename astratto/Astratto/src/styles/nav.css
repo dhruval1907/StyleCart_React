@@ -62,4 +62,13 @@
 }
 .nav-part2 a .icon {
   font-size: 20px;
+}
+
+@media (min-width: 1440px) {
+  .nav2 {
+    display: flex;
+    flex-direction: row !important;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
 }/*# sourceMappingURL=nav.css.map */

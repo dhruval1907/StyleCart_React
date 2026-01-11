@@ -7,6 +7,7 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="nav2">
+        <div className="nav-part"></div>
         <div className="nav-part1">
           <div className="icon-main">
             <FaStarOfLife className="icon" />
