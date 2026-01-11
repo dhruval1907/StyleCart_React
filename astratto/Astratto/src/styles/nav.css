@@ -1,0 +1,13 @@
+.nav {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav2 {
+  border-bottom: 2px solid black;
+  width: 100%;
+  padding: 20px 0px;
+}/*# sourceMappingURL=nav.css.map */
