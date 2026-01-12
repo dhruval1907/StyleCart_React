@@ -14,7 +14,7 @@
   justify-content: start;
 }
 .mainpart1 .inside-main video {
-  height: 40%;
+  height: 100%;
   border-radius: 50px;
   width: 100%;
 }
@@ -34,14 +34,24 @@
     display: flex;
     align-items: start;
     justify-content: center;
+    position: relative;
   }
   .mainpart1 .inside-main .inside-part1 {
     height: 100%;
     width: 100%;
+    position: absolute;
+    z-index: 1;
   }
   .mainpart1 .inside-main .inside-part1 .inside-part1 video {
-    height: 100%;
-    border-radius: 50px;
+    height: 10%;
     width: 100%;
+  }
+  .mainpart1 .inside-main .inside-part1 .inside-part2 {
+    position: absolute;
+    height: 100%;
+    top: 10%;
+    width: 100%;
+    z-index: 99;
+    background-color: red;
   }
 }/*# sourceMappingURL=mainpart1.css.map */
