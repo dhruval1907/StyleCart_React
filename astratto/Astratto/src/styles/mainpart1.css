@@ -85,8 +85,8 @@
     width: 100%;
     border-radius: 20px;
     display: flex;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
   }
   .mainpart1 .inside-part1 {
     height: 100%;
@@ -104,14 +104,16 @@
   .mainpart1 .inside-part2 {
     position: absolute;
     z-index: 2;
-    height: 50%;
-    width: 50%;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.304);
     padding: 4rem;
     border-radius: 50px;
     color: coral;
-    top: 30%;
-    left: 25%;
   }
   .mainpart1 .inside-part2 h3 {
     font-size: 2rem;
@@ -123,6 +125,7 @@
   }
   .mainpart1 .inside-part2 .text .span {
     font-size: 3rem;
+    color: #8017F5;
   }
   .mainpart1 .inside-part2 .text h2 {
     font-size: 3rem;
