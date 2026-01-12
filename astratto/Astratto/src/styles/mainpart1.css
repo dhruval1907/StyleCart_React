@@ -74,14 +74,14 @@
 
 @media (min-width: 1440px) {
   .mainpart1 {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .mainpart1 .inside-main {
-    height: 100%;
+    height: 90%;
     width: 100%;
     border-radius: 20px;
     display: flex;
