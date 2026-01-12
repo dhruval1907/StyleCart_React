@@ -119,11 +119,13 @@
   }
   .mainpart1 .inside-part2 h1 {
     font-size: 4rem;
+    letter-spacing: 0.4rem;
   }
   .mainpart1 .inside-part2 .text .span {
     font-size: 3rem;
   }
   .mainpart1 .inside-part2 .text h2 {
     font-size: 3rem;
+    letter-spacing: 0.4rem;
   }
 }/*# sourceMappingURL=mainpart1.css.map */

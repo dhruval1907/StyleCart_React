@@ -9,7 +9,7 @@ const Mainpart1 = () => {
           <video src={video} loop autoPlay muted></video>
         </div>
         <div className="inside-part2">
-          <h3>Igniting the spark of Inspiration</h3>
+          <h3>Igniting  the spark of Inspiration</h3>
           <h1>
             Unleash Your <br /> Brand With Our{" "}
           </h1>
