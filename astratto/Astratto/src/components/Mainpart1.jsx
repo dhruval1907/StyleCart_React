@@ -7,10 +7,16 @@ const Mainpart1 = () => {
       <div className="inside-main">
         <div className="inside-part1">
           <video src={video} loop autoPlay muted></video>
-          </div>
+        </div>
         <div className="inside-part2">
-          <h3 >Igniting the spark of Inspiration</h3>
-          <h1>Unleash Your  <br /> Brand With Our <span className="span"> Magico</span> Design</h1>
+          <h3>Igniting the spark of Inspiration</h3>
+          <h1>
+            Unleash Your <br /> Brand With Our{" "}
+          </h1>
+          <div className="text">
+            <span className="span"> Magico</span>
+            <h2>Design</h2>
+          </div>
         </div>
       </div>
     </div>
