@@ -1,5 +1,5 @@
 .mainpart1::selection {
-  background-color: coral;
+  background-color: crimson
 }
 
 .mainpart1 {
@@ -123,13 +123,30 @@
     .inside-part2{
       position: absolute;
       z-index: 2;
-      height: 40%;
-      width: 90%;
-      color: white;
-      top: 20%;
-
+      height: 50%;
+      width: 50%;
+      background-color: rgba(0, 0, 0, 0.304);
+      padding: 4rem;
+      border-radius: 50px;
+      color: coral;
+      top: 30%;
+      left: 25%;
       h3{
-        font-size: 3rem;
+        font-size: 2rem;
+        font-size: 600;
+      }
+      h1{
+        font-size: 4rem;
+      }
+      .text{
+        // margin-top: 5rem;
+        .span{
+          font-size: 3rem;
+        }
+        h2{
+          font-size: 3rem;
+        }
+
       }
     }
 
