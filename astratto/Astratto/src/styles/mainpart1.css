@@ -33,7 +33,7 @@
     border-radius: 20px;
     display: flex;
     align-items: start;
-    justify-content: start;
+    justify-content: center;
   }
   .mainpart1 .inside-main .inside-part1 {
     height: 100%;
