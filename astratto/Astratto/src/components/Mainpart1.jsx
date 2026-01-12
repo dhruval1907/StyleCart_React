@@ -9,7 +9,6 @@ const Mainpart1 = () => {
           <video src={video} loop autoPlay muted></video>
         </div>
         <div className="inside-part2">
-sdd
         </div>
       </div>
     </div>
