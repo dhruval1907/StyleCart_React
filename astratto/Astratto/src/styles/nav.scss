@@ -19,31 +19,37 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+
     .nav-part1 h1 {
         font-size: 30px;
     }
-    .nav-part{
-        display: flex;        
+
+    .nav-part {
+        display: flex;
         gap: 20px;
 
-        a{
+        a {
             text-decoration: none;
-              font-size: 18px;
+            font-size: 18px;
             color: black;
             font-weight: 900;
+            display: none;
+
             text-transform: capitalize;
         }
-        a:hover{
+
+        a:hover {
             border-bottom: 1px solid black;
         }
     }
-    .nav-part1{
+
+    .nav-part1 {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 10px;
 
-        .icon-main{
+        .icon-main {
             background-color: rgba(0, 0, 255, 0.828);
             height: 50px;
             width: 50px;
@@ -55,21 +61,21 @@
             justify-content: center;
         }
     }
-}    
+}
 
-.nav-part2{
+.nav-part2 {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     gap: 30px;
 
-    h4{
+    h4 {
         font-weight: 600;
         letter-spacing: 1px;
     }
-    
-    a{
+
+    a {
         text-decoration: none;
         letter-spacing: 1px;
         padding: 10px;
@@ -80,7 +86,7 @@
         gap: 10px;
         align-items: center;
 
-        .icon{
+        .icon {
             font-size: 20px;
         }
     }
@@ -88,7 +94,7 @@
 
 
 @media (min-width : 1440px) {
-    .nav2{
+    .nav2 {
         display: flex;
         flex-direction: row !important;
         padding: 10px;
@@ -96,24 +102,29 @@
         border-bottom: 0.5px solid black;
     }
 
-    .nav-part{
+    .nav-part {
         width: 30%;
         gap: 20px;
         padding: 0px 50px;
-        a{
+
+        a {
             font-size: 18px;
             color: black;
             font-weight: 900;
+            display: block !important;
             text-transform: capitalize;
         }
     }
-    .nav-part1{
+
+    .nav-part1 {
         width: 33%;
-        h1{
+
+        h1 {
             font-size: 25px !important;
         }
     }
-    .nav-part2{
+
+    .nav-part2 {
         width: 28%;
         gap: 40px;
     }

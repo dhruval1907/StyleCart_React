@@ -20,22 +20,18 @@
 }
 .nav2 .nav-part1 h1 {
   font-size: 30px;
-  color: white;
 }
 .nav2 .nav-part {
   display: flex;
   gap: 20px;
 }
-.nav-part1 a {
-  color: white;
-}
 .nav2 .nav-part a {
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  color: black;
   font-weight: 900;
+  display: none;
   text-transform: capitalize;
-  color: white;
 }
 .nav2 .nav-part a:hover {
   border-bottom: 1px solid black;
@@ -63,13 +59,11 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  color: white;
   gap: 30px;
 }
 .nav-part2 h4 {
   font-weight: 600;
   letter-spacing: 1px;
-  color: white;
 }
 .nav-part2 a {
   text-decoration: none;
@@ -103,6 +97,7 @@
     font-size: 18px;
     color: black;
     font-weight: 900;
+    display: block !important;
     text-transform: capitalize;
   }
   .nav-part1 {

@@ -62,17 +62,22 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      gap: 20px;
+      gap: 10px;
+      .span {
+        rotate: 12deg;
+        font-size: 25px;
+        background-color: #FFFF7D;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px !important;
+      }
+  
+      h2{
+       font-size: 25px; 
+       font-weight: 400;
+      }
     }
 
-    .span {
-      rotate: 15deg;
-      font-size: 25px;
-      background-color: #FFFF7D;
-      text-align: center;
-      padding: 10px;
-      margin-top: 10px !important;
-    }
 
   }
 
@@ -106,12 +111,26 @@
       display: flex;
       align-items: start;
       justify-content: start;
+      position: relative;
       // background-color: red;
     }
 
     .inside-part1 video {
       height: 100%;
       width: 100%;
+    }
+
+    .inside-part2{
+      position: absolute;
+      z-index: 2;
+      height: 40%;
+      width: 90%;
+      color: white;
+      top: 20%;
+
+      h3{
+        font-size: 3rem;
+      }
     }
 
   }
